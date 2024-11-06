@@ -14,7 +14,8 @@
             "@component/*": ["./src/component/*"],
             "@config/*": ["./src/config/*"],
             "@scene/*": ["./src/scene/*"],
-            "@system/*": ["./src/system/*"]
+            "@system/*": ["./src/system/*"],
+            "@tilemap/*": ["./src/tilemap/*"]
         }
     },
     "exclude": ["node_modules", "**/dist/**", "**/lib/**"]

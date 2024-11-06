@@ -1,5 +1,15 @@
 export const RENDER_LAYERS = {
-    Logo: "Logo",
+    Foreground: "Foreground",
+    Goblin: "Goblin",
+    Ninja: "Ninja",
+    Overlayer: "Overlayer",
+    Shadow: "Shadow",
+    UI: "UI",
 };
 
-export const COLLISION_LAYERS = {};
+export const COLLISION_LAYERS = {
+    Foreground: "Foreground",
+    Goblin: "Goblin",
+    MovingPlatform: "MovingPlatform",
+    Ninja: "Ninja",
+};
