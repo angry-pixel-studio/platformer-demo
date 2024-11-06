@@ -15,7 +15,7 @@ src:
     - factory: Contains the entity factories.
     - scene: Contains the scene classes.
     - system: Contains the system classes.
-    - index.ts: Entry point of the project, in this we instantiate the Game class.
+    - index.ts: Entry point of the project, within this we instantiate the Game class.
 ```
 
 You can create new asset directories inside `dist` forder, for example, you can create an `audio` folder for the music and sound fx, or a `font` directory for the fonts.
@@ -43,7 +43,7 @@ yarn install
 yarn start
 ```
 
-The dev environment will run in http://localhost:8080/
+The dev environment will run in http://localhost:3000/
 
 ## Build
 
