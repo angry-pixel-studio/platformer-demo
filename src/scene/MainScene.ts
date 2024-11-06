@@ -32,6 +32,7 @@ const queryParams = new URLSearchParams(window.location.search);
 
 export class MainScene extends Scene {
     public systems: SystemType<System>[] = [
+        FpsMetterSystem,
         InputControllerSystem,
         MovingPlatformSystem,
         NinjaMovementSystem,
@@ -39,7 +40,6 @@ export class MainScene extends Scene {
         NinjaSfxSystem,
         GoblinMovementSystem,
         FollowPlayerCameraSystem,
-        FpsMetterSystem,
     ];
 
     public loadAssets(): void {

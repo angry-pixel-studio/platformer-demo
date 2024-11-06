@@ -11,6 +11,7 @@ import {
     SpriteRenderer,
     Transform,
     Vector2,
+    Children,
 } from "angry-pixel";
 import { COLLISION_LAYERS, RENDER_LAYERS } from "@config/layers";
 import { ASSETS } from "@config/assets";
@@ -43,6 +44,7 @@ export const ninjaFactory = (assetManager: AssetManager, position: Vector2): Com
         NinjaMovement,
         AudioPlayer,
         NinjaSfx,
+        Children,
     ];
 
     const feet = [
