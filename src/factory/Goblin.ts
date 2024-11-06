@@ -5,7 +5,6 @@ import {
     Component,
     EdgeCollider,
     AssetManager,
-    LightRenderer,
     RigidBody,
     RigidBodyType,
     SpriteRenderer,

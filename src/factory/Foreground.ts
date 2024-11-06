@@ -8,15 +8,17 @@ import {
     TilemapRenderer,
     Transform,
     Vector2,
+    TiledTilemap,
 } from "angry-pixel";
 import { ASSETS } from "@config/assets";
 import { COLLISION_LAYERS, RENDER_LAYERS } from "@config/layers";
+import tilemap from "@tilemap/tilemap.json";
 
 export const foregroundFactory = (assetManager: AssetManager): Component[] => [
     new Transform(),
     new TiledWrapper({
         layerToRender: "Foreground",
-        tilemap: require("@tilemap/tilemap.json"),
+        tilemap: tilemap as TiledTilemap,
     }),
     new TilemapRenderer({
         tileset: {
