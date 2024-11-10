@@ -23,11 +23,11 @@ export const foregroundFactory = (assetManager: AssetManager): Component[] => [
     new TilemapRenderer({
         tileset: {
             image: assetManager.getImage(ASSETS.images.tileset),
-            tileWidth: 16,
-            tileHeight: 16,
+            tileWidth: 15.8,
+            tileHeight: 15.8,
             width: 12,
             margin: new Vector2(0.1, 0.1),
-            spacing: new Vector2(-0.1, -0.1),
+            spacing: new Vector2(0.1, 0.1),
         },
         layer: RENDER_LAYERS.Foreground,
     }),

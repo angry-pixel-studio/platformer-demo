@@ -55,7 +55,9 @@ export class MainScene extends Scene {
         this.entityManager.createEntity([InputController]);
         this.entityManager.createEntity(foregroundFactory(this.assetManager));
         this.entityManager.createEntities(ninjaFactory(this.assetManager, new Vector2(-300, 0)));
-        this.entityManager.createEntity(movingPlatformFactory(this.assetManager));
+        this.entityManager.createEntity(
+            movingPlatformFactory(this.assetManager, [new Vector2(-112, -72), new Vector2(208, -72)]),
+        );
 
         for (let i = 0; i < Number(queryParams.get("goblins") ?? 20); i++) {
             this.entityManager.createEntity(goblinFactory(this.assetManager, new Vector2(randomInt(-600, 192), 0)));

@@ -26,7 +26,7 @@ export const ninjaFactory = (assetManager: AssetManager, position: Vector2): Com
             radius: 128,
             layer: RENDER_LAYERS.Shadow,
             smooth: true,
-            intensity: 1,
+            intensity: 0.6,
         }),
         new Animator({
             animations: new Map([

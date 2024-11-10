@@ -12,7 +12,7 @@ export const createAndStart = () => {
         containerNode: document.querySelector("#app"),
         width: 1920,
         height: 1080,
-        canvasColor: "#030060",
+        canvasColor: "#1b0841",
         physicsFramerate: 180,
         collisions: {
             collisionMatrix,
