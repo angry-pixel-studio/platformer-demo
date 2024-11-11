@@ -1,4 +1,4 @@
 export class NinjaSfx {
-    public stepCooldown: number = 0.2;
-    public stepTimer: number = 0;
+    stepCooldown: number = 0.2;
+    stepTimer: number = 0;
 }
